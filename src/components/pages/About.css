@@ -1,0 +1,30 @@
+.about-page .environment__text {
+color: #000;
+}
+.about-page .environment {
+background-color: #fff;
+}
+.about-page .history-section {
+  display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+  .about-page .environment {
+    padding-top: 0 ;
+  }
+  .about-page .environment__text {
+    padding-top: 0 ;
+  }
+  .about-page .environment__image-container {
+    min-height: 524px;
+    margin-right: 1rem;
+  }
+
+
+
+  .about-page .history-section {
+    display: flex;
+  }
+}
+

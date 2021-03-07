@@ -1,0 +1,75 @@
+.contact-form {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 15rem;
+  padding-bottom: 8rem;
+}
+.contact-form__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 770px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  place-items: center;
+}
+
+.contact-form__title {
+  font-family: "operetta-18";
+  font-weight: 400;
+  margin-bottom: 8rem;
+  font-size: calc(32px + (54 - 32) * ((100vw - 480px) / (1920 - 480)));
+}
+
+.contact-form__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.contact-form__form label {
+  font-family: "operetta-18";
+  font-weight: 400;
+  font-size: calc(16px + (18 - 16) * ((100vw - 480px) / (1920 - 480)));
+  margin-bottom: 1rem;
+
+}
+
+.contact-form__form input {
+border-bottom: 1px solid black;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+margin-bottom: 5rem;
+font-size: calc(16px + (18 - 16) * ((100vw - 480px) / (1920 - 480)));;
+font-family: "futura-pt", Arial, sans-serif;
+font-weight: 300;
+}
+.contact-form__form select, textarea {
+  border-bottom: 1px solid black;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  color: rgb(167, 167, 167);
+  font-family: "futura-pt", Arial, sans-serif;
+  font-weight: 300;
+  margin-bottom: 5rem;
+  font-size: calc(16px + (18 - 16) * ((100vw - 480px) / (1920 - 480)));;
+}
+.contact-form__form textarea {
+  height: 100px;
+}
+.contact-form__form::placeholder {
+border-bottom: 1px solid black;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+color: rgb(167, 167, 167);
+font-family: "futura-pt", Arial, sans-serif;
+font-weight: 300;
+padding: 0.34rem;
+}
+
+.contact-form .btn2{
+margin-top: 5rem;
+}

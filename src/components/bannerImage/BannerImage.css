@@ -1,0 +1,15 @@
+.banner-image {
+    background-color: #fff;
+    width: 100%;
+}
+
+.banner-image__container {
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.banner-image__image {
+width: 100%;
+}

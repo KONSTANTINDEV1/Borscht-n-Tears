@@ -1,0 +1,19 @@
+:root {
+  --primary: #fff;
+}
+
+.btn {
+  padding: 0.742em 2.246em;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+.btn--large:hover,
+.btn--medium:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #242424;
+  transition: 250ms;
+}

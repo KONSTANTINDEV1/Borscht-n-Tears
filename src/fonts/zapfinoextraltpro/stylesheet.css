@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Zapfino Extra LT Pro';
+    src: url('ZapfinoExtraLTPro.woff2') format('woff2'),
+        url('ZapfinoExtraLTPro.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+

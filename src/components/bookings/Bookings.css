@@ -1,0 +1,40 @@
+.bookings {
+  width: 100%;
+}
+
+.bookings__container {
+  flex-direction: row-reverse;
+  padding-top: 0;
+  flex-direction: column;
+  place-items: center;
+}
+.bookings__widget {
+  width: 100%;
+  height: 100%;
+}
+
+.bookings__widget-container {
+  width: 90%;
+  margin: 0 auto;
+  height: 650px;
+  padding-top: 3rem;
+  margin-bottom: 5rem;
+  /* margin-left: -2rem;
+    margin-right: -2rem; */
+  position: relative;
+}
+
+.padding-top-bottom10 {
+  padding: 10rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .bookings {
+    margin-top: 0rem;
+  }
+
+  .bookings__container .about__text {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}

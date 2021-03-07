@@ -1,0 +1,38 @@
+.shisha .cropped-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(10, 10, 10, 0.2);
+}
+.shisha .cropped-image {
+  filter: blur(0.5px);
+}
+.shisha .environment__image-container {
+  margin-top: 5rem;
+  position: relative;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  margin-bottom: -1rem;
+}
+.shisha .environment__image-container img {
+  margin-bottom: -1rem;
+}
+
+.shisha .breadcrumb__container {
+  background-position: center !important;
+}
+.shisha .history-section {
+height: 200px;
+}
+
+@media screen and (min-width: 1280px) {
+  .cropped-image {
+    width: 80%;
+  }
+  .shisha .remove-padding-top {
+  padding-top: 0;
+  }
+}

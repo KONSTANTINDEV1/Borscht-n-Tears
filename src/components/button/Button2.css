@@ -1,0 +1,13 @@
+.btn2 {
+  padding: 0.9em 2.246em;
+  font-size: calc(16px + (18 - 16) * ((100vw - 480px) / (1920 - 480)));
+  font-weight: 500;
+  font-family: "futura-pt", Arial, sans-serif;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn2:hover {
+  background-color: black;
+  color: white;
+}
